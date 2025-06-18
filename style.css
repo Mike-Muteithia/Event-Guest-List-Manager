@@ -1,0 +1,252 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    ---background: ;
+    ---secondaryBackground: ;
+    --text: ;
+    --purple: ;
+    --teal: ;
+}
+
+body{
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    margin-bottom: 30px;
+    max-width: 500px;
+    background-color: blanchedalmond;
+}
+
+.figures-container {
+    padding: 30px;
+    border-radius: 20px;
+    border: 3px solid; 
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+}
+
+.title-details {
+    width: 100%
+}
+
+#limitBar {
+    width: 100%;
+    height: 10px;
+    background-color: burlywood;
+    border-radius: 5px;
+    margin-top: 20px
+}
+
+#limit {
+    width: 50%;
+    height: 10px;
+    background-color: grey;
+    transition: all 0.3s ease;
+}
+
+#figures {
+    width: 100px;
+    height: 100px;
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+form {
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    gap: 4px;
+}
+
+input {
+    flex: 0.4;
+    padding: 10px;
+    background-color: antiquewhite;
+    border: 1px solid;
+    border-radius: 10px;
+    outline: none;
+    color: darkgray; 
+}
+
+button {
+    padding: 16px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    color: black;
+    font-size: auto;
+    font-weight: bold;
+    outline: none;
+} */
+
+
+/* Global Reset & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background: #f7f5ff;
+    --secondaryBackground: #ffffff;
+    --text: #333;
+    --purple: #6c63ff;
+    --teal: #3ddc97;
+    --danger: #ff6b6b;
+    --lightGray: #e0e0e0;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--background);
+    color: var(--text);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Container */
+.container {
+    text-align: center;
+    margin-top: 80px;
+}
+
+/* Title Section */
+.figures-container {
+    padding: 20px 30px;
+    border-radius: 12px;
+    border: 2px solid var(--purple);
+    background-color: var(--secondaryBackground);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title-details h1 {
+    color: var(--purple);
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.title-details p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Form */
+form#guest-list {
+    margin-top: 40px;
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    max-width: 400px;
+}
+
+input#guestNameInput {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid var(--lightGray);
+    border-radius: 8px;
+    background-color: #fff9f0;
+    font-size: 1rem;
+    color: var(--text);
+}
+
+input:focus {
+    border-color: var(--purple);
+    outline: none;
+}
+
+/* Buttons */
+button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+#newGuestName {
+    background-color: var(--teal);
+    color: white;
+}
+
+.delete {
+    background-color: var(--danger);
+    color: white;
+    margin-left: 10px;
+}
+
+.edit {
+    background-color: var(--purple);
+    color: white;
+    margin-left: 10px;
+}
+
+.rsvp {
+    background-color: var(--lightGray);
+    color: var(--text);
+    margin-left: 10px;
+}
+
+/* Guest List */
+ul.guest-list {
+    list-style: none;
+    margin-top: 30px;
+    width: 100%;
+    max-width: 600px;
+    padding: 0;
+}
+
+/* Guest List Items */
+li.guest-item {
+    background-color: var(--secondaryBackground);
+    border: 1px solid var(--lightGray);
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+/* RSVP Toggle Style */
+li.guest-item.attending {
+    background-color: #d1f7e3;
+    border-color: var(--teal);
+}
+
+/* Name Styling */
+li.guest-item span {
+    flex: 1;
+    font-size: 1.1rem;
+    font-weight: 500;
+}

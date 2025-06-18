@@ -10,8 +10,10 @@
 </head>
 <body>
     <div class="container">
-        <div class="title-details">
+        <div class="figures-container">
+            <div class="title-details">
             <h1>MYGUESTBOOK</h1>
+            <p>Welcome to myGuestBook!</p>
             <div id="limitBar">
                 <div id="limit"></div>
             </div>
@@ -19,11 +21,12 @@
         <div class="guest-figures">
             <p id="figures">2 / 10</p>
         </div>
+        </div>
     </div>
 
     <form action="">
-        <input type="text" placeholder="Write your guest name- your number">
-        <button type="submit">+</button>
+        <input id="guestNameInput" type="text" placeholder="Write your guest name- your number">
+        <button id="newGuestName" type="submit">+</button>
     </form>
 
     <ul class="guest-list"></ul>
