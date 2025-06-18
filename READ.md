@@ -1,2 +1,0 @@
-# Event-Guest-List-Manager
-.
