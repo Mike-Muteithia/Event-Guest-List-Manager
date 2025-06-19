@@ -49,15 +49,17 @@ w2-Code-Challenge/
 - Allowed characters: Letters (`A–Z`), spaces, and hyphens (`-`).
 
 
-## ▶️ How To Run
+## ▶️ How To Run the Solutions
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/guest-list-manager.git
+1. Clone the repository.
+2. Navigate to the project folder.
+3. Open the index.html in your browser.
+4. "Mess around with it" - Use the app.
 
-2. Open index.html in your browser with:
-    ```explorer.exe index.html
+# Author 
+- Mike Muteithia
 
-#License
+# License
+
 
 
