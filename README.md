@@ -38,15 +38,22 @@ w2-Code-Challenge/
  1. Users type a name into the input field and press "Submit".
  2. Valid names are added to the guest list as list items.
  3. Each guest item comes with:
-   - ✅ RSVP toggle button (Attending / Not Attending)
-   - ✏️ Edit button to update name
-   - ❌ Delete button to remove guest
+   - RSVP toggle button (Attending / Not Attending)
+   - Edit button to update name
+   - Delete button to remove guest
 
 
-## 📝 Validation Rules
+## Validation Rules
 
 - Guest names must be between 2 and 50 characters.
 - Allowed characters: Letters (`A–Z`), spaces, and hyphens (`-`).
+
+
+# Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
 
 
 ## ▶️ How To Run the Solutions
@@ -56,10 +63,13 @@ w2-Code-Challenge/
 3. Open the index.html in your browser.
 4. "Mess around with it" - Use the app.
 
-# Author 
-- Mike Muteithia
 
-# License
+# Author & License
 
+**Author:** [Mike Muteithia](https://github.com/Mike-Muteithia-SH)
+
+**License:** MIT License
+
+This project is licensed under the [MIT License](LICENSE) - you're free to use, modify, and distrubute this project with legal contribution. 
 
 
