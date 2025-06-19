@@ -66,10 +66,11 @@ w2-Code-Challenge/
 
 # Author & License
 
-**Author:** [Mike Muteithia](https://github.com/Mike-Muteithia-SH)
+Author: **Mike Muteithia** [GitHub](https://github.com/Mike-Muteithia)
 
-**License:** MIT License
+License: *MIT License*
 
-This project is licensed under the [MIT License](LICENSE) - you're free to use, modify, and distrubute this project with legal contribution. 
+This project is licensed under the *MIT License*. 
+See the [License](LICENSE) file for the details. 
 
 
